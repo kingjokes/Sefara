@@ -1,6 +1,6 @@
 # Sefara Project
 
-<b>Project is developed using React Js for the frontend and Node js for backend</b>
+<b>Project was developed using React Js for the frontend and Node js for backend</b>
 
 
 <h6>Folder Structures</h6>
