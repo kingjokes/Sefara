@@ -290,7 +290,7 @@ class LogicHandler {
 
     //command was successful
     return this.res.json({
-      status: 200,
+      status: true,
       message: "Command ran successfully",
     });
   }

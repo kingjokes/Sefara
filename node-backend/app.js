@@ -27,3 +27,10 @@ app.get("/", (req, res) => {
 
 
 app.post('/api/command', (req,res,err)=>new LogicHandler(req,res))
+
+app.use('*', (req,res,err)=>{
+  res.json({
+    status:false,
+    message:'Path not found'
+  }).status(500)
+})
